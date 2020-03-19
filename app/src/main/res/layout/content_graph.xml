@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.GraphActivity"
+    tools:showIn="@layout/activity_graph">
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"></com.github.mikephil.charting.charts.LineChart>
+
+    <TextView
+        android:id="@+id/consumo_actual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consumo_actual"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/consumo_acumulado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/consumo_acumulado"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/meta_mensual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/meta_mensual"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"/>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "684845922940",
+    "firebase_url": "https://ayudalosprod.firebaseio.com",
+    "project_id": "ayudalosprod",
+    "storage_bucket": "ayudalosprod.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684845922940:android:ecb6ae230a319183",
+        "android_client_info": {
+          "package_name": "com.example.energyconsumption"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684845922940-m1kkl4k81o2gej47narfgi5jge67jqbu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.energyconsumption",
+            "certificate_hash": "bd50aedfa70d2393be8c39bcd99cda18f3af230d"
+          }
+        },
+        {
+          "client_id": "684845922940-2iemkk535clvll4v8cnoabuvhdk1ng1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD_IaqJ7lCUafSH65nfwzlLKSyjE7m5iA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684845922940-2iemkk535clvll4v8cnoabuvhdk1ng1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
